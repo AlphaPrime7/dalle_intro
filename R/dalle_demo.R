@@ -15,4 +15,3 @@ prompt_dalle <- "create a high quality background of greek gods with multiple sk
 demo <- create_image(prompt_dalle)
 demo_url <- demo$data$url
 print(demo_url)
-
